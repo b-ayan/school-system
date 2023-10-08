@@ -62,3 +62,14 @@ function fizzbuzz(array){
 var inArr=[1,3,5,9,10,7];
 var fizzbuzzArr= fizzbuzz(inArr);
 console.log(fizzbuzzArr);
+
+
+// Suppose we have an array of numbers.
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// We want to create a new array containing only the even numbers from the original array.
+const evenNumbers = numbers.filter(function (num) {
+  return num % 2 === 0;
+});
+
+console.log(evenNumbers);

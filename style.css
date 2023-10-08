@@ -1,0 +1,18 @@
+
+#jsRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    margin: 10px;
+}
+
+footer{
+    background-color: #262626;
+    color: white;
+}
+
+img{
+    height: 60%;
+}
