@@ -1,8 +1,8 @@
 
-#jsRow{
+/* #jsRow{
     display: flex;
     flex-direction: row;
-}
+} */
 
 .card {
     margin: 10px;
@@ -15,4 +15,8 @@ footer{
 
 img{
     height: 60%;
+}
+
+@media screen and (min-width:300px)  and (max-width:500px){
+
 }
